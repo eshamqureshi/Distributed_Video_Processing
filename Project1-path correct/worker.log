@@ -1,0 +1,82 @@
+2024-11-24 11:30:38,717 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2024-11-24 11:30:38,719 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-24 11:30:38,721 [INFO]  * Restarting with stat
+2024-11-24 11:30:39,192 [WARNING]  * Debugger is active!
+2024-11-24 11:30:39,194 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:30:47,420 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.11:5002
+2024-11-24 11:30:47,426 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-24 11:30:47,429 [INFO]  * Restarting with stat
+2024-11-24 11:30:47,858 [WARNING]  * Debugger is active!
+2024-11-24 11:30:47,860 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:45:35,014 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:45:35,124 [INFO]  * Restarting with stat
+2024-11-24 11:45:35,541 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:45:35,659 [INFO]  * Restarting with stat
+2024-11-24 11:45:35,796 [WARNING]  * Debugger is active!
+2024-11-24 11:45:35,799 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:45:36,103 [WARNING]  * Debugger is active!
+2024-11-24 11:45:36,106 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:46:21,400 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:46:21,499 [INFO]  * Restarting with stat
+2024-11-24 11:46:22,090 [WARNING]  * Debugger is active!
+2024-11-24 11:46:22,090 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:46:22,093 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:46:22,183 [INFO]  * Restarting with stat
+2024-11-24 11:46:22,632 [WARNING]  * Debugger is active!
+2024-11-24 11:46:22,634 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:46:23,117 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:46:23,191 [INFO]  * Restarting with stat
+2024-11-24 11:46:23,622 [WARNING]  * Debugger is active!
+2024-11-24 11:46:23,625 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:46:23,651 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:46:23,693 [INFO]  * Restarting with stat
+2024-11-24 11:46:24,167 [WARNING]  * Debugger is active!
+2024-11-24 11:46:24,170 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:47:45,658 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.11:5002
+2024-11-24 11:47:45,660 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-24 11:47:45,663 [INFO]  * Restarting with stat
+2024-11-24 11:47:46,042 [WARNING]  * Debugger is active!
+2024-11-24 11:47:46,044 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:47:52,373 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.11:5001
+2024-11-24 11:47:52,374 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-24 11:47:52,376 [INFO]  * Restarting with stat
+2024-11-24 11:47:52,792 [WARNING]  * Debugger is active!
+2024-11-24 11:47:52,794 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:51:46,471 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:51:46,553 [INFO]  * Restarting with stat
+2024-11-24 11:51:47,173 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:51:47,250 [INFO]  * Restarting with stat
+2024-11-24 11:51:47,260 [WARNING]  * Debugger is active!
+2024-11-24 11:51:47,263 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:51:47,712 [WARNING]  * Debugger is active!
+2024-11-24 11:51:47,715 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:52:06,839 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\worker.py', reloading
+2024-11-24 11:52:06,929 [INFO]  * Restarting with stat
+2024-11-24 11:52:07,389 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\worker.py', reloading
+2024-11-24 11:52:07,482 [INFO]  * Restarting with stat
+2024-11-24 11:52:08,742 [WARNING]  * Debugger is active!
+2024-11-24 11:52:08,744 [INFO]  * Debugger PIN: 472-751-402
+2024-11-24 11:52:09,176 [WARNING]  * Debugger is active!
+2024-11-24 11:52:09,180 [INFO]  * Debugger PIN: 472-751-402
+2024-11-24 11:52:21,284 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\worker.py', reloading
+2024-11-24 11:52:21,531 [INFO]  * Restarting with stat
+2024-11-24 11:52:21,840 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\worker.py', reloading
+2024-11-24 11:52:22,112 [INFO]  * Restarting with stat
+2024-11-24 11:52:26,383 [INFO]  * Restarting with stat
+2024-11-24 11:52:26,631 [INFO]  * Restarting with stat
+2024-11-24 11:52:30,096 [INFO]  * Restarting with stat
+2024-11-24 11:52:30,850 [INFO]  * Restarting with stat
+2024-11-24 11:52:32,995 [INFO]  * Restarting with stat
+2024-11-24 11:52:33,286 [INFO]  * Restarting with stat
