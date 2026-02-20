@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YourWebsite - Video Processing & Data Protection</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset Some Default Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #F5F5F5;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #1F3B4D;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #video-processing {
+            padding: 80px 0;
+            background: url('https://www.tripwire.com/sites/default/files/Role-encryption-gdpr-compliance.jpg') no-repeat center center/cover;
+        }
+
+        nav .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        nav .nav-links a:hover,
+        nav .nav-links a.active {
+            color: #F0A500;
+        }
+
+        nav .nav-links a.active::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #F0A500;
+            margin-top: 5px;
+        }
+
+        nav .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        nav .hamburger span {
+            height: 3px;
+            width: 25px;
+            background-color: #fff;
+            margin: 4px 0;
+            transition: 0.4s;
+        }
+
+        /* Home Section */
+        #home {
+            background: url('https://www.logsign.com/uploads/encryption_ff2b4dd67c.jpg') no-repeat center center/cover;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 60px; /* To offset fixed navbar */
+            position: relative;
+            color: #fff;
+        }
+
+        .home-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(31, 59, 77, 0.7);
+        }
+
+        .home-header {
+            position: relative;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .home-header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease-out;
+            font-weight: 600;
+        }
+
+        .home-header p {
+            font-size: 20px;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .home-header .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #F0A500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            animation: fadeIn 1.5s ease-out;
+            font-weight: 600;
+        }
+
+        .home-header .btn:hover {
+            background-color: #D18F00;
+            transform: scale(1.05);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Section Titles */
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #1F3B4D;
+        }
+
+        h3, h4 {
+            font-weight: 600;
+            color: #1F3B4D;
+        }
+
+        /* About Section */
+        #about {
+            padding: 80px 0;
+            background-color: #fff;
+        }
+
+        #about h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .about-content .text {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+
+        .about-content .text h3 {
+            margin-bottom: 15px;
+            color: #F0A500;
+        }
+
+        .about-content .text p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .about-content .image {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about-content .image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .about-content .image img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Services Section */
+        #services {
+            padding: 80px 0;
+            background-color: #F5F5F5;
+        }
+
+        #services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .service img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .service h3 {
+            margin-bottom: 15px;
+            color: #F0A500;
+        }
+
+        .service p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Features Section */
+        #features {
+            padding: 80px 0;
+            background-color: #fff;
+        }
+
+        #features h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .features-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .feature img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature img:hover {
+            transform: scale(1.05);
+        }
+
+        .feature .feature-text {
+            flex: 1;
+        }
+
+        .feature .feature-text h4 {
+            margin-bottom: 10px;
+            color: #F0A500;
+        }
+
+        .feature .feature-text p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Video Processing Section */
+        #video-processing {
+            padding: 80px 0;
+            background-color: #E0F7FA;
+        }
+
+        #video-processing h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .video-processor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .video-processor button {
+            padding: 12px 25px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #F0A500;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            width: 220px;
+            font-weight: 600;
+        }
+
+        .video-processor button:hover {
+            background-color: #D18F00;
+            transform: scale(1.05);
+        }
+
+        .video-processor button:nth-child(3) {
+            background-color: #1F3B4D;
+        }
+
+        .video-processor button:nth-child(3):hover {
+            background-color: #163047;
+            transform: scale(1.05);
+        }
+
+        #status {
+            margin-top: 20px;
+            font-weight: bold;
+            min-height: 24px;
+            color: #333;
+        }
+
+        /* Privacy Section */
+        #privacy {
+            padding: 80px 0;
+            background-color: #F5F5F5;
+        }
+
+        #privacy h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .privacy-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .privacy-item {
+            max-width: 800px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .privacy-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .privacy-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .privacy-item .privacy-text {
+            flex: 1;
+        }
+
+        .privacy-item .privacy-text h4 {
+            margin-bottom: 10px;
+            color: #F0A500;
+        }
+
+        .privacy-item .privacy-text p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Contact Us Section */
+        #contact {
+            padding: 80px 0;
+            background-color: #fff;
+        }
+
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            background-color: #E0F7FA;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        form label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            font-size: 16px;
+        }
+
+        form input:focus, form textarea:focus {
+            border-color: #F0A500;
+            outline: none;
+        }
+
+        form button {
+            margin-top: 15px;
+            padding: 12px;
+            border: none;
+            background-color: #1F3B4D;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-weight: 600;
+        }
+
+        form button:hover {
+            background-color: #163047;
+            transform: scale(1.02);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1F3B4D;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer .social-links {
+            margin-top: 10px;
+        }
+
+        footer .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        footer .social-links a:hover {
+            color: #F0A500;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav .nav-links {
+                position: absolute;
+                top: 60px;
+                left: -100%;
+                flex-direction: column;
+                background-color: #1F3B4D;
+                width: 100%;
+                transition: left 0.3s ease;
+            }
+
+            nav .nav-links.active {
+                left: 0;
+            }
+
+            nav .nav-links a {
+                margin: 15px 0;
+                text-align: center;
+            }
+
+            nav .hamburger {
+                display: flex;
+            }
+
+            #home {
+                padding-top: 100px; /* Adjust for fixed navbar */
+            }
+
+            .video-processor button {
+                width: 80%;
+                max-width: 300px;
+            }
+
+            .about-content, .features-container, .privacy-content {
+                flex-direction: column;
+            }
+
+            .about-content .image, .feature, .privacy-item {
+                text-align: center;
+            }
+
+            .about-content .image img, .feature img, .privacy-item img {
+                margin: 0 auto 20px;
+            }
+
+            .services-container, .features-container, .privacy-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">PDC Hackton</a>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#video-processing" class="nav-link">Video Processing</a>
+                <a href="#privacy" class="nav-link">Privacy</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-overlay"></div>
+        <div class="container">
+            <div class="home-header">
+                <h1>Welcome to YourWebsite</h1>
+                <p>Your one-stop solution for video encoding and more!</p>
+                <a href="#video-processing" class="btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="text">
+                    <h3>Our Mission</h3>
+                    <p>At YourWebsite, we are dedicated to providing top-notch video processing solutions that ensure your data remains private and secure. Our cutting-edge technology leverages parallel and distributed systems to deliver fast and efficient encoding and decoding services.</p>
+                    <p>We prioritize data protection and encryption to give you peace of mind while handling your valuable media content.</p>
+                </div>
+                <div class="image">
+                    <img src="https://gumletblog.gumlet.io/learn/2024/05/Video-Encryption.png" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_dfwlpN4gk7zwcsmAcMvx2qbbYdVIxRhSuQ&s" alt="Video Encoding">
+                    <h3>Video Encoding</h3>
+                    <p>Efficiently convert your videos into various formats with our high-speed encoding services, ensuring compatibility and quality preservation.</p>
+                </div>
+                <div class="service">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3500/3500698.png" alt="Video Decoding">
+                    <h3>Video Decoding</h3>
+                    <p>Seamlessly decode your video files, making them accessible across different platforms and devices without compromising on performance.</p>
+                </div>
+                <div class="service">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSWAEI87GoLZgWM5Xy_qy91hrJd1rcvB5cag&s" alt="Data Encryption">
+                    <h3>Data Encryption</h3>
+                    <p>Protect your data with advanced encryption techniques, ensuring that your sensitive information remains secure and confidential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROasQo42b6HsXosVxLHDGITPJldHmlRu-nCQ&s" alt="High Performance">
+                    <div class="feature-text">
+                        <h4>High Performance</h4>
+                        <p>Our platform utilizes parallel and distributed processing to handle large volumes of video data efficiently, reducing processing time and enhancing productivity.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6783/6783360.png" alt="Secure Processing">
+                    <div class="feature-text">
+                        <h4>Secure Processing</h4>
+                        <p>We implement robust security measures, including data encryption and secure file handling, to ensure that your videos are processed safely and privately.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4254/4254447.png" alt="User-Friendly Interface">
+                    <div class="feature-text">
+                        <h4>User-Friendly Interface</h4>
+                        <p>Navigate our platform with ease using our intuitive and responsive interface, designed to provide a seamless user experience across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy">
+        <div class="container">
+            <h2>Data Privacy & Protection</h2>
+            <div class="privacy-content">
+                <div class="privacy-item">
+                    <img src="https://i0.wp.com/i.fbcd.co/products/original/b038898b241933a765fa3be3c298b19f46e08a95888fc8e61af9c084e6303090.jpg?ssl=1" alt="Data Privacy">
+                    <div class="privacy-text">
+                        <h4>Data Privacy</h4>
+                        <p>We prioritize your privacy by adhering to strict data handling protocols. Your video files are processed securely, and access is limited to authorized personnel only.</p>
+                    </div>
+                </div>
+                <div class="privacy-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2819/2819735.png" alt="Data Protection">
+                    <div class="privacy-text">
+                        <h4>Data Protection</h4>
+                        <p>Our infrastructure is fortified with advanced security technologies to protect your data from unauthorized access, breaches, and other cyber threats.</p>
+                    </div>
+                </div>
+                <div class="privacy-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2582/2582451.png" alt="Data Encryption">
+                    <div class="privacy-text">
+                        <h4>Data Encryption</h4>
+                        <p>All data transmissions are encrypted using state-of-the-art encryption standards, ensuring that your information remains confidential during processing and storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-processing">
+        <div class="container">
+            <h2>Parallel and Distributed Video Processor</h2>
+            <div class="video-processor">
+                <button onclick="uploadAndProcess('encode')">Encode Video</button>
+                <button onclick="uploadAndProcess('decode')">Decode Video</button>
+                <button onclick="download()">Download Processed File</button>
+                
+                <input type="file" id="fileInput" accept="video/*" style="display: none;" />
+                
+                <div id="status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 YourWebsite. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook.png" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" alt="Twitter"></a>
+                <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn"></a>
+                <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Wait for the DOM to load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Hamburger Menu Toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            const navLinkItems = document.querySelectorAll('.nav-link');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('toggle');
+            });
+
+            // Close mobile menu when a link is clicked
+            navLinkItems.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        hamburger.classList.remove('toggle');
+                    }
+                });
+            });
+
+            // Highlight Active Navigation Link on Scroll
+            const sections = document.querySelectorAll('section');
+            window.addEventListener('scroll', () => {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 80; // Adjust for navbar height
+                    if (pageYOffset >= sectionTop) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinkItems.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Handle Contact Form Submission
+            const contactForm = document.getElementById('contactForm');
+            if(contactForm){
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // For demonstration, we'll just display an alert. Integrate with backend as needed.
+                    alert('Thank you for contacting us! We will get back to you shortly.');
+                    contactForm.reset();
+                });
+            }
+        });
+
+        // Video Processing Functions
+
+        async function uploadAndProcess(action) {
+            const fileInput = document.getElementById("fileInput");
+            const statusDiv = document.getElementById("status");
+            fileInput.value = ''; // Reset the input
+            fileInput.click();
+
+            fileInput.onchange = async () => {
+                const file = fileInput.files[0];
+                if (!file) {
+                    updateStatus("No file selected.", "red");
+                    return;
+                }
+
+                updateStatus("Uploading video...", "blue");
+
+                const formData = new FormData();
+                formData.append("video", file);
+
+                try {
+                    const uploadResponse = await fetch("/upload", { method: "POST", body: formData });
+                    if (!uploadResponse.ok) {
+                        throw new Error(`Upload failed with status ${uploadResponse.status}`);
+                    }
+                    const uploadData = await uploadResponse.json();
+
+                    if (uploadData.status !== "success") {
+                        updateStatus(`Upload failed: ${uploadData.message}`, "red");
+                        return;
+                    }
+
+                    updateStatus("Processing video...", "blue");
+
+                    const processResponse = await fetch("/process_video", {
+                        method: "POST",
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: new URLSearchParams({ 
+                            action, 
+                            video_filename: uploadData.video_path.split(/[/\\]/).pop() // Cross-platform path handling
+                        }),
+                    });
+
+                    if (!processResponse.ok) {
+                        throw new Error(`Processing failed with status ${processResponse.status}`);
+                    }
+
+                    const processData = await processResponse.json();
+
+                    if (processData.status === "success") {
+                        sessionStorage.setItem("output_file", processData.output_file);
+                        updateStatus(`${capitalize(action)} completed! Ready to download.`, "green");
+                    } else {
+                        updateStatus(`Processing failed: ${processData.message}`, "red");
+                    }
+
+                } catch (error) {
+                    console.error(error);
+                    updateStatus("An error occurred during processing.", "red");
+                }
+            };
+        }
+
+        async function download() {
+            const output_file = sessionStorage.getItem("output_file");
+            if (output_file) {
+                window.location.href = `/download?file=${encodeURIComponent(output_file)}`;
+                updateStatus("Download started...", "blue");
+            } else {
+                updateStatus("No file processed yet!", "red");
+            }
+        }
+
+        function updateStatus(message, color) {
+            const statusDiv = document.getElementById("status");
+            if(statusDiv){
+                statusDiv.textContent = message;
+                statusDiv.style.color = color;
+            }
+        }
+
+        function capitalize(str) {
+            if (str.length === 0) return str;
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+    </script>
+</body>
+</html>

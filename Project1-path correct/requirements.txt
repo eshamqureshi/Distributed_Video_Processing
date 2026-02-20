@@ -1,0 +1,9 @@
+# requirements.txt
+flask
+flask-socketio
+eventlet
+moviepy
+Pillow
+numpy
+requests
+cryptography

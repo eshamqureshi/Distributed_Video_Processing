@@ -1,0 +1,213 @@
+2024-11-24 11:30:05,416 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.11:5000
+2024-11-24 11:30:05,417 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-24 11:30:05,419 [INFO]  * Restarting with stat
+2024-11-24 11:30:06,182 [WARNING]  * Debugger is active!
+2024-11-24 11:30:06,184 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:30:16,335 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:16] "GET / HTTP/1.1" 200 -
+2024-11-24 11:30:16,713 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:16] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStIE5 HTTP/1.1[0m" 404 -
+2024-11-24 11:30:16,724 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-24 11:30:18,028 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:18] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStIYd HTTP/1.1[0m" 404 -
+2024-11-24 11:30:20,039 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:20] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStJ23 HTTP/1.1[0m" 404 -
+2024-11-24 11:30:25,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStKJd HTTP/1.1[0m" 404 -
+2024-11-24 11:30:31,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStLnN HTTP/1.1[0m" 404 -
+2024-11-24 11:30:37,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStNF6 HTTP/1.1[0m" 404 -
+2024-11-24 11:30:43,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStOix HTTP/1.1[0m" 404 -
+2024-11-24 11:30:49,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStQAf HTTP/1.1[0m" 404 -
+2024-11-24 11:30:54,282 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:54] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStRP5 HTTP/1.1[0m" 404 -
+2024-11-24 11:30:57,942 [INFO] Uploaded video: Recording_2024-11-24_042948.mp4
+2024-11-24 11:30:57,946 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:57] "POST /upload HTTP/1.1" 200 -
+2024-11-24 11:30:57,961 [ERROR] Process Video Error: [WinError 2] The system cannot find the file specified
+2024-11-24 11:30:57,963 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:57] "[35m[1mPOST /process_video HTTP/1.1[0m" 500 -
+2024-11-24 11:30:59,298 [INFO] 127.0.0.1 - - [24/Nov/2024 11:30:59] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStSdT HTTP/1.1[0m" 404 -
+2024-11-24 11:31:04,317 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:04] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStTrv HTTP/1.1[0m" 404 -
+2024-11-24 11:31:10,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:10] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStVIp HTTP/1.1[0m" 404 -
+2024-11-24 11:31:16,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:16] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStWmR HTTP/1.1[0m" 404 -
+2024-11-24 11:31:22,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:22] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStYEL HTTP/1.1[0m" 404 -
+2024-11-24 11:31:28,266 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:28] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStZi3 HTTP/1.1[0m" 404 -
+2024-11-24 11:31:34,255 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:34] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStb9g HTTP/1.1[0m" 404 -
+2024-11-24 11:31:39,276 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:39] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStcO5 HTTP/1.1[0m" 404 -
+2024-11-24 11:31:44,288 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:44] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStdcR HTTP/1.1[0m" 404 -
+2024-11-24 11:31:44,886 [INFO] Uploaded video: Recording_2024-11-24_042948.mp4
+2024-11-24 11:31:44,889 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:44] "POST /upload HTTP/1.1" 200 -
+2024-11-24 11:31:44,904 [ERROR] Process Video Error: [WinError 2] The system cannot find the file specified
+2024-11-24 11:31:44,905 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:44] "[35m[1mPOST /process_video HTTP/1.1[0m" 500 -
+2024-11-24 11:31:49,300 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSteql HTTP/1.1[0m" 404 -
+2024-11-24 11:31:55,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:31:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStgI2 HTTP/1.1[0m" 404 -
+2024-11-24 11:32:01,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSthla HTTP/1.1[0m" 404 -
+2024-11-24 11:32:07,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStjDO HTTP/1.1[0m" 404 -
+2024-11-24 11:32:13,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStkh4 HTTP/1.1[0m" 404 -
+2024-11-24 11:32:19,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStm8r HTTP/1.1[0m" 404 -
+2024-11-24 11:32:25,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStncZ HTTP/1.1[0m" 404 -
+2024-11-24 11:32:31,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStp4W HTTP/1.1[0m" 404 -
+2024-11-24 11:32:37,272 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStqYI HTTP/1.1[0m" 404 -
+2024-11-24 11:32:43,268 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStr_- HTTP/1.1[0m" 404 -
+2024-11-24 11:32:49,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSttTj HTTP/1.1[0m" 404 -
+2024-11-24 11:32:55,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:32:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStuxS HTTP/1.1[0m" 404 -
+2024-11-24 11:33:01,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStwPE HTTP/1.1[0m" 404 -
+2024-11-24 11:33:07,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStxs_ HTTP/1.1[0m" 404 -
+2024-11-24 11:33:13,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDStzKg HTTP/1.1[0m" 404 -
+2024-11-24 11:33:19,274 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSt-oQ HTTP/1.1[0m" 404 -
+2024-11-24 11:33:25,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu0GB HTTP/1.1[0m" 404 -
+2024-11-24 11:33:31,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu1jz HTTP/1.1[0m" 404 -
+2024-11-24 11:33:37,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu3Be HTTP/1.1[0m" 404 -
+2024-11-24 11:33:43,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu4fS HTTP/1.1[0m" 404 -
+2024-11-24 11:33:49,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu67B HTTP/1.1[0m" 404 -
+2024-11-24 11:33:55,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:33:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu7av HTTP/1.1[0m" 404 -
+2024-11-24 11:34:01,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu92e HTTP/1.1[0m" 404 -
+2024-11-24 11:34:07,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuAWO HTTP/1.1[0m" 404 -
+2024-11-24 11:34:13,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuB-G HTTP/1.1[0m" 404 -
+2024-11-24 11:34:19,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuDRs HTTP/1.1[0m" 404 -
+2024-11-24 11:34:25,257 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuEvb HTTP/1.1[0m" 404 -
+2024-11-24 11:34:31,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuGNQ HTTP/1.1[0m" 404 -
+2024-11-24 11:34:37,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuHr4 HTTP/1.1[0m" 404 -
+2024-11-24 11:34:43,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuJIq HTTP/1.1[0m" 404 -
+2024-11-24 11:34:49,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuKmZ HTTP/1.1[0m" 404 -
+2024-11-24 11:34:55,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:34:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuMEP HTTP/1.1[0m" 404 -
+2024-11-24 11:35:01,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuNi9 HTTP/1.1[0m" 404 -
+2024-11-24 11:35:07,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuP9w HTTP/1.1[0m" 404 -
+2024-11-24 11:35:13,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuQdk HTTP/1.1[0m" 404 -
+2024-11-24 11:35:19,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuS5U HTTP/1.1[0m" 404 -
+2024-11-24 11:35:25,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuTZ9 HTTP/1.1[0m" 404 -
+2024-11-24 11:35:31,255 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuV0p HTTP/1.1[0m" 404 -
+2024-11-24 11:35:37,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuWUg HTTP/1.1[0m" 404 -
+2024-11-24 11:35:43,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuXyL HTTP/1.1[0m" 404 -
+2024-11-24 11:35:49,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuZQ3 HTTP/1.1[0m" 404 -
+2024-11-24 11:35:55,266 [INFO] 127.0.0.1 - - [24/Nov/2024 11:35:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuaty HTTP/1.1[0m" 404 -
+2024-11-24 11:36:01,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSucLh HTTP/1.1[0m" 404 -
+2024-11-24 11:36:07,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSudpQ HTTP/1.1[0m" 404 -
+2024-11-24 11:36:13,272 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSufHH HTTP/1.1[0m" 404 -
+2024-11-24 11:36:19,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSugkr HTTP/1.1[0m" 404 -
+2024-11-24 11:36:25,266 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuiCg HTTP/1.1[0m" 404 -
+2024-11-24 11:36:31,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSujgW HTTP/1.1[0m" 404 -
+2024-11-24 11:36:37,257 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSul86 HTTP/1.1[0m" 404 -
+2024-11-24 11:36:43,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSumbr HTTP/1.1[0m" 404 -
+2024-11-24 11:36:49,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuo3b HTTP/1.1[0m" 404 -
+2024-11-24 11:36:55,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:36:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSupXJ HTTP/1.1[0m" 404 -
+2024-11-24 11:37:01,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuq_F HTTP/1.1[0m" 404 -
+2024-11-24 11:37:07,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSusSw HTTP/1.1[0m" 404 -
+2024-11-24 11:37:13,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSutwg HTTP/1.1[0m" 404 -
+2024-11-24 11:37:19,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuvON HTTP/1.1[0m" 404 -
+2024-11-24 11:37:25,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuwsH HTTP/1.1[0m" 404 -
+2024-11-24 11:37:31,257 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuyJp HTTP/1.1[0m" 404 -
+2024-11-24 11:37:37,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSuzne HTTP/1.1[0m" 404 -
+2024-11-24 11:37:43,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSu_FV HTTP/1.1[0m" 404 -
+2024-11-24 11:37:49,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv0jC HTTP/1.1[0m" 404 -
+2024-11-24 11:37:55,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:37:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv2Aw HTTP/1.1[0m" 404 -
+2024-11-24 11:38:01,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv3eY HTTP/1.1[0m" 404 -
+2024-11-24 11:38:07,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv56W HTTP/1.1[0m" 404 -
+2024-11-24 11:38:13,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv6aA HTTP/1.1[0m" 404 -
+2024-11-24 11:38:19,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv81t HTTP/1.1[0m" 404 -
+2024-11-24 11:38:25,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv9Vg HTTP/1.1[0m" 404 -
+2024-11-24 11:38:31,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvAzQ HTTP/1.1[0m" 404 -
+2024-11-24 11:38:37,255 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvCR2 HTTP/1.1[0m" 404 -
+2024-11-24 11:38:43,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvDv1 HTTP/1.1[0m" 404 -
+2024-11-24 11:38:49,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvFMm HTTP/1.1[0m" 404 -
+2024-11-24 11:38:55,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:38:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvGqM HTTP/1.1[0m" 404 -
+2024-11-24 11:39:01,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvIIA HTTP/1.1[0m" 404 -
+2024-11-24 11:39:07,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvJlq HTTP/1.1[0m" 404 -
+2024-11-24 11:39:13,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvLDZ HTTP/1.1[0m" 404 -
+2024-11-24 11:39:19,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvMhQ HTTP/1.1[0m" 404 -
+2024-11-24 11:39:25,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvO9B HTTP/1.1[0m" 404 -
+2024-11-24 11:39:31,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvPcw HTTP/1.1[0m" 404 -
+2024-11-24 11:39:37,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:37] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvR4c HTTP/1.1[0m" 404 -
+2024-11-24 11:39:43,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:43] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvSYV HTTP/1.1[0m" 404 -
+2024-11-24 11:39:49,268 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:49] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvU0F HTTP/1.1[0m" 404 -
+2024-11-24 11:39:55,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:39:55] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvVT- HTTP/1.1[0m" 404 -
+2024-11-24 11:40:01,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:01] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvWxc HTTP/1.1[0m" 404 -
+2024-11-24 11:40:07,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:07] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvYPQ HTTP/1.1[0m" 404 -
+2024-11-24 11:40:13,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:13] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvZtD HTTP/1.1[0m" 404 -
+2024-11-24 11:40:19,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:19] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvbKx HTTP/1.1[0m" 404 -
+2024-11-24 11:40:25,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:25] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvcog HTTP/1.1[0m" 404 -
+2024-11-24 11:40:31,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:31] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSveGL HTTP/1.1[0m" 404 -
+2024-11-24 11:40:36,281 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:36] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvfUq HTTP/1.1[0m" 404 -
+2024-11-24 11:40:42,253 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:42] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvgyA HTTP/1.1[0m" 404 -
+2024-11-24 11:40:48,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:48] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSviQ9 HTTP/1.1[0m" 404 -
+2024-11-24 11:40:54,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:40:54] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvjtp HTTP/1.1[0m" 404 -
+2024-11-24 11:41:00,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:00] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvlLU HTTP/1.1[0m" 404 -
+2024-11-24 11:41:06,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:06] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvmpO HTTP/1.1[0m" 404 -
+2024-11-24 11:41:12,273 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:12] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvoHA HTTP/1.1[0m" 404 -
+2024-11-24 11:41:18,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:18] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvpkh HTTP/1.1[0m" 404 -
+2024-11-24 11:41:24,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:24] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvrCV HTTP/1.1[0m" 404 -
+2024-11-24 11:41:30,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:30] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvsgL HTTP/1.1[0m" 404 -
+2024-11-24 11:41:36,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:36] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvu7- HTTP/1.1[0m" 404 -
+2024-11-24 11:41:42,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:42] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvvbl HTTP/1.1[0m" 404 -
+2024-11-24 11:41:48,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:48] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvx3Y HTTP/1.1[0m" 404 -
+2024-11-24 11:41:54,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:41:54] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvyXM HTTP/1.1[0m" 404 -
+2024-11-24 11:42:00,266 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:00] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSvz_4 HTTP/1.1[0m" 404 -
+2024-11-24 11:42:06,268 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:06] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSv_St HTTP/1.1[0m" 404 -
+2024-11-24 11:42:12,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:12] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw0wV HTTP/1.1[0m" 404 -
+2024-11-24 11:42:18,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:18] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw2OM HTTP/1.1[0m" 404 -
+2024-11-24 11:42:24,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:24] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw3s0 HTTP/1.1[0m" 404 -
+2024-11-24 11:42:30,272 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:30] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw5Jy HTTP/1.1[0m" 404 -
+2024-11-24 11:42:36,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:36] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw6nY HTTP/1.1[0m" 404 -
+2024-11-24 11:42:42,264 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:42] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw8FI HTTP/1.1[0m" 404 -
+2024-11-24 11:42:48,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:48] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw9j1 HTTP/1.1[0m" 404 -
+2024-11-24 11:42:54,270 [INFO] 127.0.0.1 - - [24/Nov/2024 11:42:54] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwBAv HTTP/1.1[0m" 404 -
+2024-11-24 11:43:00,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:00] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwCeb HTTP/1.1[0m" 404 -
+2024-11-24 11:43:06,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:06] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwE6F HTTP/1.1[0m" 404 -
+2024-11-24 11:43:12,260 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:12] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwFZ- HTTP/1.1[0m" 404 -
+2024-11-24 11:43:18,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:18] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwH1w HTTP/1.1[0m" 404 -
+2024-11-24 11:43:24,257 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:24] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwIVQ HTTP/1.1[0m" 404 -
+2024-11-24 11:43:30,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:30] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwJzN HTTP/1.1[0m" 404 -
+2024-11-24 11:43:36,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:36] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwLRA HTTP/1.1[0m" 404 -
+2024-11-24 11:43:42,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:42] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwMus HTTP/1.1[0m" 404 -
+2024-11-24 11:43:48,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:48] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwOMX HTTP/1.1[0m" 404 -
+2024-11-24 11:43:54,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:43:54] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwPqI HTTP/1.1[0m" 404 -
+2024-11-24 11:44:00,267 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:00] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwRI5 HTTP/1.1[0m" 404 -
+2024-11-24 11:44:06,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:06] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwSlk HTTP/1.1[0m" 404 -
+2024-11-24 11:44:12,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:12] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwUDa HTTP/1.1[0m" 404 -
+2024-11-24 11:44:18,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:18] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwVhL HTTP/1.1[0m" 404 -
+2024-11-24 11:44:24,254 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:24] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwX8w HTTP/1.1[0m" 404 -
+2024-11-24 11:44:30,263 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:30] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwYcn HTTP/1.1[0m" 404 -
+2024-11-24 11:44:36,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:36] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwa4U HTTP/1.1[0m" 404 -
+2024-11-24 11:44:41,268 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:41] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwbIn HTTP/1.1[0m" 404 -
+2024-11-24 11:44:45,861 [INFO] Uploaded video: Recording_2024-11-24_042948.mp4
+2024-11-24 11:44:45,865 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:45] "POST /upload HTTP/1.1" 200 -
+2024-11-24 11:44:45,879 [ERROR] Process Video Error: [WinError 2] The system cannot find the file specified
+2024-11-24 11:44:45,881 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:45] "[35m[1mPOST /process_video HTTP/1.1[0m" 500 -
+2024-11-24 11:44:46,284 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:46] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwcX6 HTTP/1.1[0m" 404 -
+2024-11-24 11:44:52,256 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:52] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwd-S HTTP/1.1[0m" 404 -
+2024-11-24 11:44:58,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:44:58] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwfSG HTTP/1.1[0m" 404 -
+2024-11-24 11:45:04,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:04] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwgv- HTTP/1.1[0m" 404 -
+2024-11-24 11:45:10,271 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:10] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwiNv HTTP/1.1[0m" 404 -
+2024-11-24 11:45:16,258 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:16] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwjrT HTTP/1.1[0m" 404 -
+2024-11-24 11:45:22,255 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:22] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwlJB HTTP/1.1[0m" 404 -
+2024-11-24 11:45:28,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:28] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwmn2 HTTP/1.1[0m" 404 -
+2024-11-24 11:45:34,257 [INFO] 127.0.0.1 - - [24/Nov/2024 11:45:34] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwoEh HTTP/1.1[0m" 404 -
+2024-11-24 11:45:35,241 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:45:35,387 [INFO]  * Restarting with stat
+2024-11-24 11:45:38,202 [WARNING]  * Debugger is active!
+2024-11-24 11:45:38,204 [INFO]  * Debugger PIN: 472-751-402
+2024-11-24 11:46:21,495 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:46:21,700 [INFO]  * Restarting with stat
+2024-11-24 11:46:22,818 [WARNING]  * Debugger is active!
+2024-11-24 11:46:22,820 [INFO]  * Debugger PIN: 931-173-350
+2024-11-24 11:46:22,831 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:22] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwpiW HTTP/1.1[0m" 404 -
+2024-11-24 11:46:22,834 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:22] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSwwIN HTTP/1.1[0m" 404 -
+2024-11-24 11:46:28,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:28] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSw_QY HTTP/1.1[0m" 404 -
+2024-11-24 11:46:33,281 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:33] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx0ey HTTP/1.1[0m" 404 -
+2024-11-24 11:46:34,148 [INFO] Uploaded video: Recording_2024-11-24_042948.mp4
+2024-11-24 11:46:34,149 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:34] "POST /upload HTTP/1.1" 200 -
+2024-11-24 11:46:34,158 [ERROR] Process Video Error: [WinError 2] The system cannot find the file specified
+2024-11-24 11:46:34,158 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:34] "[35m[1mPOST /process_video HTTP/1.1[0m" 500 -
+2024-11-24 11:46:38,306 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:38] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx1tT HTTP/1.1[0m" 404 -
+2024-11-24 11:46:44,266 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:44] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx3Ka HTTP/1.1[0m" 404 -
+2024-11-24 11:46:50,259 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:50] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx4oD HTTP/1.1[0m" 404 -
+2024-11-24 11:46:56,261 [INFO] 127.0.0.1 - - [24/Nov/2024 11:46:56] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx6Fz HTTP/1.1[0m" 404 -
+2024-11-24 11:47:02,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:47:02] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx7jn HTTP/1.1[0m" 404 -
+2024-11-24 11:47:08,265 [INFO] 127.0.0.1 - - [24/Nov/2024 11:47:08] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSx9BY HTTP/1.1[0m" 404 -
+2024-11-24 11:47:14,262 [INFO] 127.0.0.1 - - [24/Nov/2024 11:47:14] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSxAfG HTTP/1.1[0m" 404 -
+2024-11-24 11:47:20,269 [INFO] 127.0.0.1 - - [24/Nov/2024 11:47:20] "[33mGET /socket.io/?EIO=4&transport=polling&t=PDSxC77 HTTP/1.1[0m" 404 -
+2024-11-24 11:47:35,211 [INFO]  * Restarting with stat
+2024-11-24 11:47:36,327 [WARNING]  * Debugger is active!
+2024-11-24 11:47:36,329 [INFO]  * Debugger PIN: 472-751-402
+2024-11-24 11:48:07,948 [INFO] Uploaded video: Recording_2024-11-24_042948.mp4
+2024-11-24 11:48:07,965 [ERROR] Process Video Error: [WinError 2] The system cannot find the file specified
+2024-11-24 11:51:46,974 [INFO]  * Detected change in 'F:\\Semester\\Semester 7\\Parallel and distrubuting computing\\Assignment\\Project1\\master.py', reloading
+2024-11-24 11:51:47,151 [INFO]  * Restarting with stat
+2024-11-24 11:52:07,208 [INFO]  * Restarting with stat
+2024-11-24 11:52:22,197 [INFO]  * Restarting with stat
+2024-11-24 11:52:26,216 [INFO]  * Restarting with stat
